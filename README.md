@@ -1,5 +1,7 @@
-### <center>Repositório para versionamento do código de gerenciamento de biblioteca, feito na cadeira de Laboratório de Programação para explorar os princípios da Programação Orientada a Objetos.</center>
-<center><img height="30px" src="https://cdn-icons-png.flaticon.com/128/6132/6132221.png"></center>
+<div align="center">
+
+### Repositório para versionamento do código de gerenciamento de biblioteca, feito na cadeira de Laboratório de Programação para explorar os princípios da Programação Orientada a Objetos.
+<img height="40px" src="https://cdn-icons-png.flaticon.com/128/6132/6132221.png">
 
 ---
 ### <center>Os 4 pilares da POO</center>
@@ -7,6 +9,7 @@
 * <div id="abstracao"><strong>Abstração:</strong> conceito de simplificar um objeto, extraindo somente as informações que são relevantes para a execução da aplicação. </div>
 * <div id="encapsulamento"><strong>Encapsulamento:</strong> conceito de proteger os dados de acesso de terceiros, podendo acessá-los somente com métodos "get & set", usados respectivamente para coletar uma dado protegido e alterar um dado protegido. </div>
 * <div id="heranca"><strong>Herança:</strong> conceito onde uma classe herda e usa os atributos e métodos de uma classe base, neste caso a classe Livro herda da classe ItemBiblioteca seus atributos:Id, Titulo, DescricaoInterna. </div>
+</div>
 ---
 
 
