@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Topografia\\Documents\\codigos\\labProgramacao\\AS\\ASGit\\GerenciamentoBiblioteca\\CodigosGerBiblio\\CodigosGerBiblio.csproj": {}
+    "D:\\ULBRA 2023-02\\Lab. de Programação\\AS\\GerenciamentoBiblioteca\\CodigosGerBiblio\\CodigosGerBiblio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Topografia\\Documents\\codigos\\labProgramacao\\AS\\ASGit\\GerenciamentoBiblioteca\\CodigosGerBiblio\\CodigosGerBiblio.csproj": {
+    "D:\\ULBRA 2023-02\\Lab. de Programação\\AS\\GerenciamentoBiblioteca\\CodigosGerBiblio\\CodigosGerBiblio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Topografia\\Documents\\codigos\\labProgramacao\\AS\\ASGit\\GerenciamentoBiblioteca\\CodigosGerBiblio\\CodigosGerBiblio.csproj",
+        "projectUniqueName": "D:\\ULBRA 2023-02\\Lab. de Programação\\AS\\GerenciamentoBiblioteca\\CodigosGerBiblio\\CodigosGerBiblio.csproj",
         "projectName": "CodigosGerBiblio",
-        "projectPath": "C:\\Users\\Topografia\\Documents\\codigos\\labProgramacao\\AS\\ASGit\\GerenciamentoBiblioteca\\CodigosGerBiblio\\CodigosGerBiblio.csproj",
-        "packagesPath": "C:\\Users\\Topografia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Topografia\\Documents\\codigos\\labProgramacao\\AS\\ASGit\\GerenciamentoBiblioteca\\CodigosGerBiblio\\obj\\",
+        "projectPath": "D:\\ULBRA 2023-02\\Lab. de Programação\\AS\\GerenciamentoBiblioteca\\CodigosGerBiblio\\CodigosGerBiblio.csproj",
+        "packagesPath": "C:\\Users\\daiam\\.nuget\\packages\\",
+        "outputPath": "D:\\ULBRA 2023-02\\Lab. de Programação\\AS\\GerenciamentoBiblioteca\\CodigosGerBiblio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Topografia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\daiam\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -9,25 +9,34 @@ public class Biblioteca
 
     public void AdicionarItem()
     {
+        Console.Clear();
         int id = ColecaoDaBiblioteca.Count() + 1;
-        Console.WriteLine("Titulo do livro:");
+        Console.Write("Titulo do livro:\n ");
         string titulo = Console.ReadLine();
-        Console.WriteLine("Autor do livro:");
+        Console.Write("Autor do livro:\n ");
         string autor = Console.ReadLine();
 
         Livro livroAdicionado = new(id, titulo, autor);
         ColecaoDaBiblioteca.Add(livroAdicionado);
-    } // ainda acho mais jogo fazer sobrecarga nos metodos adicionar e remover, nao nos outros
+        Console.Write("\nLivro adicionado! Pressione enter para continuar ");
+        Console.ReadKey();
+    }
 
     public void RemoverItem()
     {
+        Console.Clear();
         foreach (Livro item in ColecaoDaBiblioteca)
         {
             Console.WriteLine($"{item.Id} - {item.Titulo}");
         }
         Console.WriteLine();
-        Console.WriteLine("Digite o Id do livro que deseja Remover da Biblioteca e pressione enter:");
+        Console.Write("Digite o Id do livro que deseja Remover da Biblioteca e pressione enter:\n ");
         int idRemover = Convert.ToInt32(Console.ReadLine());
+        while (idRemover < 1 || idRemover > ColecaoDaBiblioteca.Count())
+        {
+            Console.Write("Opção inválida, digite uma opção entre as disponíveis: ");
+            idRemover = Convert.ToInt32(Console.ReadLine());
+        }
         ColecaoDaBiblioteca.RemoveAt(idRemover - 1);
         foreach (Livro item2 in ColecaoDaBiblioteca)
         {
@@ -40,16 +49,19 @@ public class Biblioteca
         Console.ReadLine();
     }
 
-    public void BuscarItemPorTitulo() // metodo sobrecarregado
+    public void BuscarItemPorTitulo() // metodo sobrecarregado / conceito de polimorfismo
     {
-        Console.WriteLine("Digite o titulo do livro que você procura:");
+        Console.Clear();
+        Console.Write("Digite o titulo ou uma palavra presente no titulo do livro que você procura:\n ");
         string tituloProcurado = Console.ReadLine();
+        tituloProcurado = tituloProcurado.ToLower();
         bool encontrado = false;
         foreach (Livro item in ColecaoDaBiblioteca)
         {
-            if (item.Titulo.Contains(tituloProcurado))
+            string itemTituloLower = item.Titulo.ToLower();
+            if (itemTituloLower.Contains(tituloProcurado))
             {
-                Console.WriteLine($"Id - {item.Id}\nTitulo - {item.Titulo}\nAutor - {item.Autor} \nDescrição interna:\n {item.ExibirDescricaoInterna()}");
+                Console.WriteLine($"\nId - {item.Id}\nTitulo - {item.Titulo}\nAutor - {item.Autor} \nDescrição interna:\n {item.ExibirDescricaoInterna()}");
                 encontrado = true;
                 break;
             }
@@ -60,18 +72,21 @@ public class Biblioteca
         }
         if (encontrado == false)
         {
-            Console.Write("Livro não encontrado. Pressione enter para voltar ");
-            Console.ReadKey();
+            Console.WriteLine("\nLivro não encontrado.");
         }
+        Console.Write("Pressione enter para voltar ao menu ");
+        Console.ReadKey();
     }
     public void BuscarItemPorTitulo(string titulo)
     {
+        string tituloProcurado = titulo.ToLower();
         bool encontrado = false;
         foreach (Livro item in ColecaoDaBiblioteca)
         {
-            if (item.Titulo.Contains(titulo))
+            string itemTituloLower = item.Titulo.ToLower();
+            if (itemTituloLower.Contains(tituloProcurado))
             {
-                Console.WriteLine($"Id - {item.Id}\nTitulo - {item.Titulo}\nAutor - {item.Autor} \nDescrição interna:\n {item.ExibirDescricaoInterna()}");
+                Console.WriteLine($"\nId - {item.Id}\nTitulo - {item.Titulo}\nAutor - {item.Autor} \nDescrição interna:\n {item.ExibirDescricaoInterna()}");
                 encontrado = true;
                 break;
             }
@@ -82,22 +97,24 @@ public class Biblioteca
         }
         if (encontrado == false)
         {
-            Console.Write("Livro não encontrado. Pressione enter para voltar ");
-            Console.ReadKey();
+            Console.WriteLine("\nLivro não encontrado.");
         }
+        Console.Write("Pressione enter para voltar ao menu ");
+        Console.ReadKey();
     }
 
 
-    public void BuscarItemPorId() // metodo sobrecarregado
+    public void BuscarItemPorId() // metodo sobrecarregado / conceito de polimorfismo
     {
-        Console.WriteLine("Digite o id do livro que você procura:");
+        Console.Clear();
+        Console.Write("Digite o id do livro que você procura:\n ");
         int id = Convert.ToInt32(Console.ReadLine());
         bool encontrado = false;
         foreach (Livro item in ColecaoDaBiblioteca)
         {
             if (id == item.Id)
             {
-                Console.WriteLine($"Id - {item.Id}\nTitulo - {item.Titulo}\nAutor - {item.Autor} \nDescrição interna:\n {item.ExibirDescricaoInterna()}");
+                Console.WriteLine($"\nId - {item.Id}\nTitulo - {item.Titulo}\nAutor - {item.Autor} \nDescrição interna:\n {item.ExibirDescricaoInterna()}");
                 encontrado = true;
                 break;
             }
@@ -108,18 +125,20 @@ public class Biblioteca
         }
         if (encontrado == false)
         {
-            Console.Write("Livro não encontrado. Pressione enter para voltar ");
-            Console.ReadKey();
+            Console.Write("\nLivro não encontrado.");
         }
+        Console.Write("\nPressione enter para voltar para o menu ");
+        Console.ReadKey();
     }
     public void BuscarItemPorId(int id)
     {
+        Console.Clear();
         bool encontrado = false;
         foreach (Livro item in ColecaoDaBiblioteca)
         {
             if (id == item.Id)
             {
-                Console.WriteLine($"Id - {item.Id}\nTitulo - {item.Titulo}\nAutor - {item.Autor} \nDescrição interna:\n {item.ExibirDescricaoInterna()}");
+                Console.WriteLine($"\nId - {item.Id}\nTitulo - {item.Titulo}\nAutor - {item.Autor} \nDescrição interna:\n {item.ExibirDescricaoInterna()}");
                 encontrado = true;
                 break;
             }
@@ -130,8 +149,9 @@ public class Biblioteca
         }
         if (encontrado == false)
         {
-            Console.Write("Livro não encontrado. Pressione enter para voltar ");
-            Console.ReadKey();
+            Console.Write("\nLivro não encontrado.");
         }
+        Console.Write("\nPressione enter para voltar para o menu ");
+        Console.ReadKey();
     }
 }

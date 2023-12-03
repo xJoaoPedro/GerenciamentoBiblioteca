@@ -4,28 +4,15 @@
 <img height="40px" src="https://cdn-icons-png.flaticon.com/128/6132/6132221.png">
 
 ---
-### <center>Os 4 pilares da POO</center>
+### <center>Os 4 pilares da POO utilizados:</center>
 
 * <div id="abstracao"><strong>Abstração:</strong> conceito de simplificar um objeto, extraindo somente as informações que são relevantes para a execução da aplicação. </div>
 * <div id="encapsulamento"><strong>Encapsulamento:</strong> conceito de proteger os dados de acesso de terceiros, podendo acessá-los somente com métodos "get & set", usados respectivamente para coletar uma dado protegido e alterar um dado protegido. </div>
 * <div id="heranca"><strong>Herança:</strong> conceito onde uma classe herda e usa os atributos e métodos de uma classe base, neste caso a classe Livro herda da classe ItemBiblioteca seus atributos:Id, Titulo, DescricaoInterna. </div>
+* <div id="polimorfismo"><strong>Polimorfismo:</strong> conceito de dar várias formas para uma mesma coisa, no caso deste projeto, a sobrecarga de métodos é um polimorfismo, pois cada método age de uma forma diferente, mesmo possuindo o mesmo nome. </div>
 </div>
+
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Comecei o projeto criando a classe _ItemBiblioteca_, seguindo as seguintes especificações técnicas:
 * Deve ser uma classe abstrata.
 * Propriedades: _Id_ (int), _Titulo_ (string).
@@ -44,4 +31,16 @@ Após, foi criada a classe _Livro_, seguindo as especificações:
 Nesta criação foi usado o conceito de <a href="#heranca" style="color:lightgray;"><u>herança</u></a>.
 
 ---
-Criada a classe _Biblioteca_, implementando uma lista de elementos ItemBiblioteca, que é inicializada no construtor. criados os métodos _AdicionarItem_ e _RemoverItem_, ambos sem sobrecargas, e os métodos _BuscarItemPorTitulo_ e _BuscarItemPorId_, ambos sobrecarregados (metodo sem parametro e metodo com parametro). para os metodos
+Como última classe, foi criada a _Biblioteca_, com as especificações:
+* Gerencia uma coleção de ItemBiblioteca.
+* Métodos: _AdicionarItem_, _RemoverItem_.
+* Métodos com sobrecarga: _BuscarItemPorTitulo_ e _BuscarItemPorId_.
+
+ A coleção de ItemBiblioteca foi criada como List, e é inicializada no construtor.
+<br>
+Os métodos com sobrecarga possuem duas opções: não passando nenhum parâmetro e passando o parâmetro referente (int para o Id e string para Titulo).
+
+Nesta classe foi usado o conceito de <a href="#polimorfismo" style="color:lightgray;"><u>polimorfismo</u></a>.
+
+---
+Por fim, na classe _Program_ foi inicializado o objeto da biblioteca e feito um loop para ser o menu, apresentando as opções de ação disponíveis e utilizando um switch para direcionar o código para a ação desejada. 
