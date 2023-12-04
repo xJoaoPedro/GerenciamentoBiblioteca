@@ -22,7 +22,10 @@ while (true)
     {
         case 1: b1.AdicionarItem(); break;
         case 2: b1.BuscarItemPorId(); break;
-        case 3: b1.BuscarItemPorTitulo(); break;
+        case 3: // feito dessa forma para usar a sobrecarga do método de busca por titulo, que utiliza parâmetro
+            Console.Write("Digite o titulo ou alguma palavra do titulo para procurar o livro desejado:\n ");
+            b1.BuscarItemPorTitulo(Console.ReadLine()); 
+            break;
         case 4: b1.RemoverItem(); break;
         case 5: System.Environment.Exit(0); break;
     }

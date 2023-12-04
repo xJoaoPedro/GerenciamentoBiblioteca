@@ -13,3 +13,17 @@ D:\ULBRA 2023-02\Lab. de Programação\AS\GerenciamentoBiblioteca\CodigosGerBibl
 D:\ULBRA 2023-02\Lab. de Programação\AS\GerenciamentoBiblioteca\CodigosGerBiblio\obj\Debug\net7.0\CodigosGerBiblio.pdb
 D:\ULBRA 2023-02\Lab. de Programação\AS\GerenciamentoBiblioteca\CodigosGerBiblio\obj\Debug\net7.0\CodigosGerBiblio.genruntimeconfig.cache
 D:\ULBRA 2023-02\Lab. de Programação\AS\GerenciamentoBiblioteca\CodigosGerBiblio\obj\Debug\net7.0\ref\CodigosGerBiblio.dll
+C:\Users\Topografia\Documents\codigos\labProgramacao\AS\ASGit\GerenciamentoBiblioteca\CodigosGerBiblio\bin\Debug\net7.0\CodigosGerBiblio.exe
+C:\Users\Topografia\Documents\codigos\labProgramacao\AS\ASGit\GerenciamentoBiblioteca\CodigosGerBiblio\bin\Debug\net7.0\CodigosGerBiblio.deps.json
+C:\Users\Topografia\Documents\codigos\labProgramacao\AS\ASGit\GerenciamentoBiblioteca\CodigosGerBiblio\bin\Debug\net7.0\CodigosGerBiblio.runtimeconfig.json
+C:\Users\Topografia\Documents\codigos\labProgramacao\AS\ASGit\GerenciamentoBiblioteca\CodigosGerBiblio\bin\Debug\net7.0\CodigosGerBiblio.dll
+C:\Users\Topografia\Documents\codigos\labProgramacao\AS\ASGit\GerenciamentoBiblioteca\CodigosGerBiblio\bin\Debug\net7.0\CodigosGerBiblio.pdb
+C:\Users\Topografia\Documents\codigos\labProgramacao\AS\ASGit\GerenciamentoBiblioteca\CodigosGerBiblio\obj\Debug\net7.0\CodigosGerBiblio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Topografia\Documents\codigos\labProgramacao\AS\ASGit\GerenciamentoBiblioteca\CodigosGerBiblio\obj\Debug\net7.0\CodigosGerBiblio.AssemblyInfoInputs.cache
+C:\Users\Topografia\Documents\codigos\labProgramacao\AS\ASGit\GerenciamentoBiblioteca\CodigosGerBiblio\obj\Debug\net7.0\CodigosGerBiblio.AssemblyInfo.cs
+C:\Users\Topografia\Documents\codigos\labProgramacao\AS\ASGit\GerenciamentoBiblioteca\CodigosGerBiblio\obj\Debug\net7.0\CodigosGerBiblio.csproj.CoreCompileInputs.cache
+C:\Users\Topografia\Documents\codigos\labProgramacao\AS\ASGit\GerenciamentoBiblioteca\CodigosGerBiblio\obj\Debug\net7.0\CodigosGerBiblio.dll
+C:\Users\Topografia\Documents\codigos\labProgramacao\AS\ASGit\GerenciamentoBiblioteca\CodigosGerBiblio\obj\Debug\net7.0\refint\CodigosGerBiblio.dll
+C:\Users\Topografia\Documents\codigos\labProgramacao\AS\ASGit\GerenciamentoBiblioteca\CodigosGerBiblio\obj\Debug\net7.0\CodigosGerBiblio.pdb
+C:\Users\Topografia\Documents\codigos\labProgramacao\AS\ASGit\GerenciamentoBiblioteca\CodigosGerBiblio\obj\Debug\net7.0\CodigosGerBiblio.genruntimeconfig.cache
+C:\Users\Topografia\Documents\codigos\labProgramacao\AS\ASGit\GerenciamentoBiblioteca\CodigosGerBiblio\obj\Debug\net7.0\ref\CodigosGerBiblio.dll
