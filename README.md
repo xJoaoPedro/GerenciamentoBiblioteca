@@ -3,7 +3,7 @@
 ### Repositório para versionamento do código de gerenciamento de biblioteca, feito na cadeira de Laboratório de Programação para explorar os princípios da Programação Orientada a Objetos.
 <img loading="lazy" height="40px" src="https://cdn-icons-png.flaticon.com/128/6132/6132221.png">
 
-<a href="https://www.youtube.com/" target="_blank"><img loading="lazy" height="25px" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+<a href="https://youtu.be/Fo_3K48hE84?si=aqK8-zJ3fHHdjML7" target="_blank"><img loading="lazy" height="25px" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
 
 
 ---
